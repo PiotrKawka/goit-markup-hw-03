@@ -1,0 +1,163 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/* header */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.logo-dark {
+  color: #2e2f42;
+}
+
+/* global bulleted list */
+
+ul {
+  list-style-type: none;
+}
+
+/* navigation links */
+
+.link {
+  font-weight: 500;
+  color: #2e2f42;
+  text-decoration: none;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+}
+.link:hover {
+  color: #404bbf;
+}
+
+.link:active {
+  color: #404bbf;
+}
+.link:focus {
+  color: #404bbf;
+}
+
+/* address links */
+
+.address .a-link {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+.address {
+  font-style: normal;
+}
+
+.a-link:hover {
+  color: #404bbf;
+}
+
+.a-link:focus {
+  color: #404bbf;
+}
+
+.a-link:active {
+  color: #404bbf;
+}
+
+/* hero image */
+
+.hero {
+  background: #2e2f42;
+}
+.hero-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+/* button */
+
+.main-button {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  background: #4d5ae5;
+  cursor: pointer;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+.main-button:hover,
+.main-button:active,
+.main-button:focus {
+  background-color: #404bbf;
+}
+
+/* Features */
+
+.section-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  color: #2e2f42;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.article {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* Our Team */
+
+.card {
+  background-color: #ffffff;
+}
+.section-our-team {
+  background-color: #f4f4fd;
+}
+.section-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-white {
+  color: #f4f4fd;
+}
+
+.footer-article {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
