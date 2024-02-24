@@ -154,18 +154,28 @@ ul {
 
 /* Features */
 
+.features {
+  padding: 120px;
+}
+.features-list {
+  display: flex;
+  gap: 24px;
+}
+
 .section-subtitle {
   font-weight: 500;
   font-size: 20px;
   color: #2e2f42;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  width: calc((100% - 72px) / 4);
 }
 .article {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  margin-bottom: 8px;
 }
 
 /* Our Team */
