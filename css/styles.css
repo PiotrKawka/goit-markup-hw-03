@@ -97,6 +97,10 @@ ul {
 .address {
   font-style: normal;
 }
+.address-list {
+  display: flex;
+  gap: 40px;
+}
 
 .a-link:hover {
   color: #404bbf;
@@ -114,6 +118,7 @@ ul {
 
 .hero {
   background: #2e2f42;
+  padding: 188px 0;
 }
 .hero-text {
   font-weight: 700;
@@ -122,6 +127,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
+  max-width: 496px;
 }
 
 /* button */
@@ -134,6 +140,11 @@ ul {
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 .main-button:hover,
 .main-button:active,
