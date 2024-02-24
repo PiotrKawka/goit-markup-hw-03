@@ -11,6 +11,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   background-color: #ffffff;
+  width: 1440px;
 }
 
 /* Global settings */
@@ -25,13 +26,17 @@ img {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  margin: 24px 0;
+ 
+
 }
-.container {
+/* .container {
   display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
+
+} */
 
 .navigation {
   display: flex;
@@ -55,8 +60,21 @@ img {
 
 /* global bulleted list */
 
+ul,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+p {
+  margin-top: 8px;
+}
+
 ul {
   list-style-type: none;
+
 }
 .menu {
   display: flex;
@@ -73,14 +91,9 @@ ul {
   letter-spacing: 0.02em;
   padding: 24px 0;
 }
-.link:hover {
-  color: #404bbf;
-}
-
-.link:active {
-  color: #404bbf;
-}
-.link:focus {
+.link:hover,
+:active,
+:focus {
   color: #404bbf;
 }
 
@@ -99,7 +112,7 @@ ul {
 }
 .address-list {
   display: flex;
-  gap: 40px;
+  gap: 40px; 
 }
 
 .a-link:hover {
@@ -118,7 +131,12 @@ ul {
 
 .hero {
   background: #2e2f42;
-  padding: 188px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+  height: 600px;
 }
 .hero-text {
   font-weight: 700;
@@ -140,11 +158,10 @@ ul {
   cursor: pointer;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  display: block;
   min-width: 169px;
   height: 56px;
-  border: none;
   border-radius: 4px;
+  padding: 16px 32;
 }
 .main-button:hover,
 .main-button:active,
@@ -155,11 +172,17 @@ ul {
 /* Features */
 
 .features {
-  padding: 120px;
+  padding: 120px 0;
+  display: flex;
+  
 }
 .features-list {
   display: flex;
   gap: 24px;
+  margin: 120px 156px;
+}
+.hide {
+  display: none;
 }
 
 .section-subtitle {
@@ -185,6 +208,12 @@ ul {
 }
 .section-our-team {
   background-color: #f4f4fd;
+  display:flex;
+  height: 732px;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 120px;
+
 }
 .section-title {
   font-family: "Roboto", sans-serif;
@@ -197,10 +226,36 @@ ul {
   color: #2e2f42;
 }
 
+.team-list {
+display:flex;
+justify-content: center;
+gap: 24px;
+
+}
+
+/* Our Portfolio */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.portfolio-list {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 48px 24px;
+
+}
+
 /* footer */
 
 .footer {
   background-color: #2e2f42;
+  height: 312px;
+  display: flex;
+  flex-direction: column;
 }
 
 .logo-white {

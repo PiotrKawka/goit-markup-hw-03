@@ -5,16 +5,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--normalizator-->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
     <link href="css/styles.css" rel="stylesheet" />
 
     <title>Our Portfolio</title>
-
-    <!--normalizator-->
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-    />
 
     <!--google-fonts-->
 
@@ -32,7 +31,7 @@
 
   <body>
     <header class="header">
-      <div class="container">
+     <!--  <div class="container"> -->
         <!--navigation-links -->
 
         <nav class="navigation">
@@ -60,34 +59,33 @@
               <a href="mailto:info@devstudio.com" class="a-link">
                 info@devstudio.com
               </a>
-              <br />
             </li>
             <li>
               <a href="tel:+110001111111" class="a-link">
                 +11 (000) 111-11-1
               </a>
-              <br />
             </li>
           </ul>
         </address>
-      </div>
+     <!--  </div> -->
     </header>
 
     <main>
       <!--hero-image-->
 
       <section class="hero">
-        <div class="container">
+        <!-- <div class="container"> -->
           <h1 class="hero-text">Effective Solutions for Your Business</h1>
           <button class="main-button" type="button">Order Service</button>
-        </div>
+        <!-- </div> -->
       </section>
 
       <!--features-->
 
       <section class="features">
-        <h2>Our Features</h2>
+
         <div class="container">
+          <h2 class="hide">Our Features</h2>
           <ul class="features-list">
             <li>
               <h3 class="section-subtitle">Strategy</h3>
@@ -125,7 +123,7 @@
 
       <section class="section-our-team">
         <h2 class="section-title">Our Team</h2>
-        <ul>
+        <ul class="team-list">
           <li class="card">
             <img src="./images/card1.jpg" width="264" alt="man" />
             <h3 class="section-subtitle">Mark Guerrero</h3>
@@ -151,9 +149,9 @@
 
       <!--our-portfolio-->
 
-      <section>
+      <section class="portfolio">
         <h2 class="section-title">Our Portfolio</h2>
-        <ul>
+        <ul class="portfolio-list">
           <li>
             <img src="./images/banking-app.jpg" alt="payment" width="360" />
             <h3 class="section-subtitle">Banking App</h3>
