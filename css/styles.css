@@ -112,6 +112,7 @@ ul {
 }
 .address {
   font-style: normal;
+  display:flex
 }
 .address-list {
   display: flex;
