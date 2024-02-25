@@ -183,6 +183,7 @@ ul , menu {
 .features-list {
   display: flex;
   gap: 24px;
+  padding: 0;
   
 }
 .visually-hidden {
