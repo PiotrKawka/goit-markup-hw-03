@@ -119,6 +119,7 @@ ul {
   display: flex;
   gap: 40px; 
   align-items: center;
+  padding: 24px 0;
 }
 
 .a-link:hover {
