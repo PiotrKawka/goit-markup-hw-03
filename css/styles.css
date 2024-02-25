@@ -224,11 +224,11 @@ overflow: hidden;
 .team-card {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4); 
 
 }
 .team-card-text {
-  padding: 32px 16px;
+  padding: 32px 0;
 }
 .team-card .section-subtitle {
 text-align: center;
